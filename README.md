@@ -54,8 +54,6 @@ The generator automatically skips sizes that exceed available memory.
 
 2) Compile the benchmark executable
 
-(unchanged from before)
-
 g++ -std=c++17 -O2 -Wall -Wextra main.cpp `
     insertion_sort.cpp selection_sort.cpp shell_sort.cpp `
     heap_sort.cpp merge_sort.cpp quick_sort.cpp radix_sort.cpp `

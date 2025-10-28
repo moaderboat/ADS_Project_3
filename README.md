@@ -11,25 +11,26 @@ It supports dataset generation up to **5 billion entries** and external-memory r
 
 g++ -std=c++17 -O2 -Wall -Wextra generate_array_files.cpp -o generate_array_files
 ./generate_array_files
+
 You can customize the dataset sizes in generate_array_files.cpp.
 
 ### 2. Build the benchmark executable
 ## A:
 Copy code
-make
+# make
 or manually:
 
 ## B:
 Copy code
-g++ -std=c++17 -O2 -Wall -Wextra main.cpp insertion_sort.cpp selection_sort.cpp shell_sort.cpp heap_sort.cpp merge_sort.cpp quick_sort.cpp radix_sort.cpp external_radix32.cpp -o sorting_all
+# g++ -std=c++17 -O2 -Wall -Wextra main.cpp insertion_sort.cpp selection_sort.cpp shell_sort.cpp heap_sort.cpp merge_sort.cpp quick_sort.cpp radix_sort.cpp external_radix32.cpp -o sorting_all
 
 
 #### 3. Run a single algorithm benchmark
 Example: sort 5 million elements 10 times
 
-bash
 Copy code
-./sorting_all 5000000 10
+
+# ./sorting_all 5000000 10
 ⚙️ Dataset Sizes and System Requirements
 Dataset	Elements	Approx Size	Recommended RAM
 data_5.bin	5	Tiny	Any

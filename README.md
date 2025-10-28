@@ -22,7 +22,7 @@ or manually:
 
 ## B:
 Copy code
-# g++ -std=c++17 -O2 -Wall -Wextra main.cpp insertion_sort.cpp selection_sort.cpp shell_sort.cpp heap_sort.cpp merge_sort.cpp quick_sort.cpp radix_sort.cpp external_radix32.cpp -o sorting_all
+# g++ -std=c++17 -O2 -Wall -Wextra main.cpp insertion_sort.cpp selection_sort.cpp shell_sort.cpp heap_sort.cpp merge_sort.cpp quick_sort.cpp radix_sort.cpp external_radix32.cpp -o sorting.exe
 
 
 #### 3. Run a single algorithm benchmark
@@ -30,7 +30,7 @@ Example: sort 5 million elements 10 times
 
 Copy code
 
-# ./sorting_all 5000000 10
+# ./sorting.exe 5000000 10
 ⚙️ Dataset Sizes and System Requirements
 Dataset	Elements	Approx Size	Recommended RAM
 data_5.bin	5	Tiny	Any

@@ -30,7 +30,9 @@ Example: sort 5 million elements 10 times
 
 Copy code
 
-# ./sorting.exe <elements to sort> <number of trials> <comma seperated algo names, no spaces>
+# ./sorting.exe (elements to sort) (number of trials) (comma seperated algo names, no spaces)
+
+# ./sorting.exe 10000 7 mt_radix_sort,radix_sort
 ⚙️ Dataset Sizes and System Requirements
 Dataset	Elements	Approx Size	Recommended RAM
 data_5.bin	5	Tiny	Any

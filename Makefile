@@ -1,12 +1,13 @@
 
 # ==== Compiler & Flags ====
 CXX      := g++
-CXXFLAGS := -std=c++17 -O2 -Wall -Wextra
+CXXFLAGS := -std=c++17 -O2 -Wall -Wextra -pthread
 
 # ==== Sources ====
 SRCS := main.cpp \
         insertion_sort.cpp selection_sort.cpp shell_sort.cpp \
-        heap_sort.cpp merge_sort.cpp quick_sort.cpp radix_sort.cpp
+        heap_sort.cpp merge_sort.cpp quick_sort.cpp radix_sort.cpp \
+        mt_radix_sort.cpp mt_merge_sort.cpp mt_quick_sort.cpp
 
 TARGET := sorting.exe
 

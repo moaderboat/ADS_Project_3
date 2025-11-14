@@ -18,6 +18,9 @@ void heap_sort(int A[], int n);
 void merge_sort(int A[], int n);
 void quick_sort(int A[], int n);
 void radix_sort(int A[], int n);
+void mt_radix_sort(int A[], int n);
+void mt_merge_sort(int A[], int n);
+void mt_quick_sort(int A[], int n);
 
 // --- Helpers ---
 #include "load_dataset.hpp"
@@ -117,6 +120,9 @@ int main(int argc, char* argv[]) {
         {"merge_sort",     merge_sort},
         {"quick_sort",     quick_sort},
         {"radix_sort",     radix_sort},
+        {"mt_radix_sort",  mt_radix_sort},
+        {"mt_merge_sort",  mt_merge_sort},
+        {"mt_quick_sort",  mt_quick_sort},
     };
 
     const bool big = (n > 50000);

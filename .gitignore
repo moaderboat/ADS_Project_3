@@ -25,5 +25,11 @@ Thumbs.db
 u64_to_u32_stream
 external_radix32
 gen_5e9_stream
+generate_array_files
+mt_external_radix_sort
+verify_sorting
 sorting_all
-sorting.exe 
+sorting.exe
+
+# === Backup Files ===
+*_backup.xlsx 

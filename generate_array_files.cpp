@@ -12,7 +12,7 @@ int main() {
 
     // Target sizes
     vector<unsigned long long> sizes = {
-        5000000000
+        5, 50, 500, 5000, 50000, 500000, 5000000, 50000000, 500000000
     };
 
     random_device rd;
